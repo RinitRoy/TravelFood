@@ -1,0 +1,154 @@
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .banner-highlights{
+    padding: 20px 0;
+    }
+    .banner-highlights h2{
+        font-size: 50px;
+    }
+    .booking-btn{
+        width: 150px;
+    }
+    .banner-highlights p{
+        font-size: 20px;
+    }
+    .section-testimonials{
+        height: 100vh;
+    }
+    cite {
+    font-size: 150%;
+    }
+
+
+    
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+   .login-btn{
+    width: 130px;
+    transform: translateX(-60%);   
+    }
+    .banner-highlights h2{
+    font-size: 50px;
+    margin-left: 48%;
+    }
+    .banner-highlights p{
+    font-size: 20px;
+    margin-left: 48%;
+    }
+    .booking-btn{
+    width: 200px;
+    margin-left: 48%;
+    margin-right: 5%;
+    margin-top: 20px;
+    text-align: center;
+    }
+    .banner{
+    width: 100%;
+    height: 50vh;
+    }
+}
+
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+     .login-btn{
+    width: 130px;
+    transform: translateX(-60%);   
+    }
+    .banner{
+    width: 100%;
+    height: 50vh;
+    }
+    .city-photo img {
+    width: 250px;
+    height: 200px;
+    }
+    .banner-highlights h2{
+    font-size: 60px;
+    margin-left: 0;
+    }
+    .banner-highlights p{
+    font-size: 30px;
+    margin-left: 0;
+    }
+    .booking-btn{
+    width: 200px;
+    margin-left: 0;
+    margin-right: 5%;
+    margin-top: 20px;
+    }
+    .section-testimonials {
+    padding: 80px 0;
+    margin-top: 100px;
+    background-size: cover;
+    width: 105%;
+    height: 100vh;
+    }
+    blockquote {
+    padding: 2%;
+    line-height: 100%;
+    position: relative;
+    margin-top: 40px;
+    font-size: 20px;
+    }   
+    .section-form{
+    font-size: 25px;
+    }
+
+
+}
+
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    .header{
+    width: 100%;
+    height: 120vh;
+}
+    .header h1{
+    padding-top: 200px;
+    padding-bottom: 0;
+    font-size: 100px;
+}
+    .login-btn{
+    width: 120px;
+    transform: translateX(-5%);   
+}
+    .features img{
+    height: 180px;
+    width: auto;
+}
+    .city-photo img {
+    width: 150px;
+    height: 100px;
+    }
+    .banner{
+    width: 100%;
+    height: 70vh;
+    }
+    .section-testimonials {
+    padding: 80px 0;
+    margin-top: 100px;
+    background-size: cover;
+    width: 105%;
+    height: 170vh;
+    }
+    blockquote {
+    padding: 2%;
+    line-height: 100%;
+    position: relative;
+    margin-top: 40px;
+    font-size: 20px;
+    } 
+    .features h1{
+    font-size: 70px;
+    }
+    .section-form{
+    font-size: 20px;
+    }
+
+}
